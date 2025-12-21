@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[98973,["/datafixer/_next/static/chunks/ce7093c3ae5ff91b.js","/datafixer/_next/static/chunks/2fb0f224e343d28c.js"],"default"]
 3:I[17989,["/datafixer/_next/static/chunks/ce7093c3ae5ff91b.js","/datafixer/_next/static/chunks/2fb0f224e343d28c.js"],"default"]
-0:{"buildId":"JLXoznSZZowTSD2jv70eg","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"n0dVVQZy1hsi0DpRRBcz5","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
