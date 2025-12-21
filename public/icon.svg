@@ -1,0 +1,14 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .background { fill: #2563eb; }
+      .foreground { fill: white; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: white; }
+      .foreground { fill: #2563eb; }
+    }
+  </style>
+  <rect class="background" width="180" height="180" rx="37" />
+  <text x="90" y="120" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" class="foreground">DF</text>
+</svg>
