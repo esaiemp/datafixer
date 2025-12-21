@@ -1,13 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: 'export',
+  trailingSlash: true,
+
+  basePath: '/datafixer',
+  assetPrefix: '/datafixer/',
+
   images: {
     unoptimized: true,
   },
-   output: 'export',        // <-- enable static HTML export
-  trailingSlash: true,  
+
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 }
 
 export default nextConfig
