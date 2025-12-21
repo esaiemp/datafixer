@@ -446,21 +446,21 @@ export default function CSVDeduplicator() {
           <DFLogo size="sm" className="opacity-60" />
         </div>
         <p className="mb-2">
-          <a href="/" className="text-[#9ca3af] no-underline mx-2.5 hover:text-white">
+          <Link href="/" className="text-[#9ca3af] no-underline mx-2.5 hover:text-white">
             Home
-          </a>{" "}
+          </Link>{" "}
           |
-          <a href="/about" className="text-[#9ca3af] no-underline mx-2.5 hover:text-white">
+          <Link href="/about" className="text-[#9ca3af] no-underline mx-2.5 hover:text-white">
             About Us
-          </a>{" "}
+          </Link>{" "}
           |
-          <a href="/privacy" className="text-[#9ca3af] no-underline mx-2.5 hover:text-white">
+          <Link href="/privacy" className="text-[#9ca3af] no-underline mx-2.5 hover:text-white">
             Privacy Policy
-          </a>{" "}
+          </Link>{" "}
           |
-          <a href="/about" className="text-[#9ca3af] no-underline mx-2.5 hover:text-white">
+          <Link href="/about" className="text-[#9ca3af] no-underline mx-2.5 hover:text-white">
             Contact Us
-          </a>
+          </Link>
         </p>
         <p className="m-0">© DataFixer</p>
       </footer>
