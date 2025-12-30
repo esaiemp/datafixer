@@ -17,7 +17,7 @@ export default function HomePage() {
           href="/tools/remove-duplicates-csv"
           className="inline-block bg-white text-[#2563eb] px-5 py-3 rounded font-bold no-underline hover:bg-gray-50 transition-colors"
         >
-          Start with CSV Tools
+          Remove Duplicates From CSV
         </Link>
       </header>
 
