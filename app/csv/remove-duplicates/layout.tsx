@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Remove Duplicates from CSV | DataFixer",
     description:
       "Remove duplicate rows from CSV files quickly and securely. Process data locally in your browser with no uploads required.",
-    url: "https://getdatafixer.com/tools/remove-duplicates-csv",
+    url: "https://getdatafixer.com/csv/remove-duplicates",
     siteName: "DataFixer",
     type: "website",
   },

@@ -14,7 +14,7 @@ export default function HomePage() {
           Clean, repair, and convert CSV and other data files directly in your browser. No signup. No uploads.
         </p>
         <Link
-          href="/tools/remove-duplicates-csv"
+          href="/csv/remove-duplicates"
           className="inline-block bg-white text-[#2563eb] px-5 py-3 rounded font-bold no-underline hover:bg-gray-50 transition-colors"
         >
           Remove Duplicates From CSV
@@ -100,7 +100,7 @@ export default function HomePage() {
           <ul className="list-none p-0 m-0">
             <li className="py-2.5 border-b border-[#e5e7eb]">
               <Link
-                href="/tools/remove-duplicates-csv"
+                href="/csv/remove-duplicates"
                 className="text-[#2563eb] font-bold no-underline hover:underline"
               >
                 Remove Duplicates from CSV

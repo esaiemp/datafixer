@@ -1,5 +1,5 @@
-import CSVDeduplicator from "@/components/csv-deduplicator"
+import { redirect } from 'next/navigation';
 
-export default function RemoveDuplicatesPage() {
-  return <CSVDeduplicator />
+export default function OldToolPage() {
+  redirect('/csv/remove-duplicates');
 }
