@@ -435,9 +435,14 @@ export default function CSVDeduplicator() {
         </div>
 
         <div className="mt-6 text-center text-sm text-muted-foreground leading-relaxed">
-          <p>
-            Your data never leaves your device. All processing happens locally in your browser for maximum security.
-          </p>
+          <p className="mt-6 text-center text-sm text-gray-700 leading-relaxed">
+  Remove duplicate rows from your CSV files quickly and securely with DataFixer. 
+  All processing happens directly in your browser, so your sensitive data never leaves your device. 
+  Our CSV Duplicates Removal tool is perfect for cleaning contact lists, sales reports, product catalogs, 
+  survey data, and any other CSV files. Fast, reliable, and easy to use: just upload your file, 
+  choose your options, and download a clean, ready-to-use CSV. 
+  Keep your data accurate, organized, and ready for analysis without installing any software.
+</p>
         </div>
       </div>
 
