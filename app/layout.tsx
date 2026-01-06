@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
+import GoogleAnalytics from "@/components/googleanalytics"
 
 export const metadata: Metadata = {
   title: "DataFixer – Free Online Data Tools",
@@ -45,10 +46,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const GA_ID = process.env.NEXT_PUBLIC_GA_ID!;
   return (
     <html lang="en">
       <body className={`font-sans antialiased`}>
         {children}
+        <GoogleAnalytics gaId={GA_ID} />
         <Analytics />
       </body>
     </html>
